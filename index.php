@@ -1,6 +1,3 @@
-<?php
-$foot = 0;
- ?>
  <!DOCTYPE html>
  <html lang="fr">
    <head>
@@ -11,9 +8,8 @@ $foot = 0;
      <p>
 <?php
 //on avance de 1 pas à la fois jusqu'a 15
-while($foot < 15){
-  $foot++;
-  echo $foot . ' On y arrive presque'. '<br/>';
+for($foot = 1; $foot <= 15; $foot++){
+  echo ' On y arrive presque'. '<br/>';
 }
  ?>
      </p>
